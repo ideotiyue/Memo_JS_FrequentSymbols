@@ -1,0 +1,39 @@
+.contents {
+  color: #333;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+header{
+  background-color: lightcoral;
+  color: #333;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.textEg{
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  text-align: left;
+  width: 50%;
+  padding: 10px 50px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.contentsitem h2{
+  border-bottom: solid #333;
+  padding-top: 50px;
+  width: 50%;
+  margin: auto;
+}
+footer{
+  background-color: rgb(187, 186, 186);
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding: 30px 30px;
+}
