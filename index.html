@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascriptの記号メモ</title>
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <meta name="description" content="Javascriptの記号メモ">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <div class="contents">
+  <header>
+    <h1>Javascriptの記号</h1>
+    <p>初心者ゆえに使い分けがわからない自分へのメモ</p>
+  </header>
+  <div class="headerbk">
+    <h1>Javascriptの記号</h1>
+    <p>初心者ゆえに使い分けがわからない自分へのメモ</p>
+  </div>
+
+    <div class="contentsitem">
+      <h2>まぎらわしい記号たち①</h2>
+        <h3>. (ピリオド)</h3>
+        <p>階層の区切りに使う。「○○の中の〜」的なイメージ</p>
+        <h3>, (コンマ)</h3>
+        <p>要素を区切るときに使う。</p>
+      <div class="textEg">
+        <p>■例<br>
+          const character = {name: "わんこ", age: 4};<br>
+          <br>
+          // characterのnameの値を出力<br>
+          console.log(character.name);</p>
+      </div>
+    </div>
+
+    <div class="contentsitem">
+      <h2 >まぎらわしい記号たち②</h2>
+        <h3>; (セミコロン)</h3>
+        <p>文の最後につける。<br>
+          ただし、 {}の後にセミコロンは不要（なんでや！）<br>
+          for文の括弧の中で「変数の定義」「条件式」「変数の更新」の区切りにも使う。
+        </p>
+        <div class="textEg">
+          <p>■例<br>
+            for (let number = 1; number <= 100; number++) {<br>
+            console.log(number);}
+          </p>
+        </div>
+        <h3>: (コロン)</h3>
+        <p>オブジェクト作成時、プロパティと値の間を繋ぐときに使う。<br>
+          コロンの前と後に続く文が内容的にイコールと思うとセミコロンと混同しないかも。
+        </p>
+      <div class="textEg">
+        <p>■例<br>
+          const character = {name: "にんじゃわんこ", age: 14};
+      </div>
+    </div>
+
+    <div class="contentsitem">
+      <h2 >まぎらわしい記号たち③</h2>
+        <h3>“ (ダブルクォーテーション)</h3>
+        文字列を入れるときに使う。<br>
+        ’(シングルクォーテーション)でもOKだけれど、バッククォーテーションと混同しそう。<br>
+        </p>
+        <div class="textEg">
+          <p>■例<br>
+            //「20」と「15」を文字列として連結<br>console.log("20"+"15");
+          </p>
+        </div>
+        <h3>` (バッククォーテーション)</h3>
+        <p>テンプレートリテラルで文字列の中に定義された定数や変数を入れるときに使う。<br>
+          ※「${}」とセット。
+        </p>
+      <div class="textEg">
+        <p>■例<br>
+          const age = 30;<br>
+          console.log(`今は${age}歳です`);
+        </p>
+      </div>
+    </div>
+
+    <div class="contentsitem">
+      <h2>まぎらわしい記号たち④</h2>
+        <h3>() (丸括弧、パーレン)</h3>
+        <p>関数の引数、if文などの条件式で使う。
+        </p>
+        <h3>{} (波括弧、ブレイス)</h3>
+        <p>クラス、関数、if文の本体やオブジェクトを作る場合など。<br>複数行にまたがるような大きめの文に使う。
+        </p>
+        <h3>[] (角括弧、ブラケット)</h3>
+        <p>配列を作成するときや、値を取り出す場合に使う。
+        </p>
+      <div class="textEg">
+        <p>■例<br>
+          const characters = [<br>
+          {name: "わんこ", age: 4},<br>
+          {name: “にゃんこ, age: 3}<br>
+          ];<br>
+          // charactersの2つ目の要素の「name」に対応する値を出力<br>
+          console.log(characters[1].name);<br>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <p>(c) コロナ無職さーちゃん</p>
+  </footer>
+</html>
